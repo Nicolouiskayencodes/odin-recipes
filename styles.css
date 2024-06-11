@@ -1,0 +1,49 @@
+h1 {
+  font-size:72px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darksalmon;
+  color:indigo;
+  text-align: center;
+  font-weight: bold;
+}
+
+.links {
+  font-weight:500;
+  text-align: left;
+  color: aqua;
+  background-color: black;
+}
+
+.links .link {
+  color:white;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 54px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:cornflowerblue;
+  color:deeppink
+}
+
+.description {
+  color:brown;
+  font-size: 26px;
+}
+
+ul,
+ol {
+  background-color: lightseagreen;
+}
+
+li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: lightseagreen;
+  font-size: 20px;
+}
+
+.img {
+  text-align: center;
+  width: 400px;
+  height:auto;
+}
