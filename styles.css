@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
   font-size:72px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -10,20 +16,37 @@ h1 {
 .links {
   font-weight:500;
   text-align: left;
-  color: aqua;
-  background-color: black;
+  color:crimson;
+  background-color: lightseagreen;
+  text-align: center;
+  padding: auto;
+  border: 0px;
+  border-top: 15px;
+  border-style: groove;
+  border-color: blueviolet;
 }
 
-.links .link {
+a {
   color:white;
   font-size: 36px;
+}
+.link {
+  display: inline-block;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 10px;
+  border-color:mediumvioletred;
+  border-style: ridge;
 }
 
 h2 {
   font-size: 54px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color:cornflowerblue;
-  color:deeppink
+  color:deeppink;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .description {
@@ -34,6 +57,8 @@ h2 {
 ul,
 ol {
   background-color: lightseagreen;
+  padding: 10px;
+  padding-left: 30px;
 }
 
 li {
@@ -46,4 +71,9 @@ li {
   text-align: center;
   width: 400px;
   height:auto;
+}
+.linkimg {
+  display: block;
+  width: 250px;
+  height: 250px;
 }
